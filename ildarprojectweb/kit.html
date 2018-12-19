@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> GAMEVIL </title>
+	<meta charset = "utf-8">
+	<link rel = "shortcut icon" type="image/x-icon" href="https://gamevil.com/gamevil.ico">
+	<link rel = "stylesheet" type="text/css" href="style/mystyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Cairo|Raleway|Bungee" rel="stylesheet">
+	<script type="text/javascript" src = "script/main.js"></script>
+</head>
+<body>
+	<div id = "header">
+		<div class = "header_class">
+			<h1 class = "logo"><a href = "index.html"><img src = "img/gamevil_logo.png" alt = "main_logo"></a></h1>
+			<div id = "navigation">
+				<ul class = "navi_class">
+					<li><a href = "contact.html">Contact</a></li>
+					<li><a href = "kit.html">Game</a></li>
+					<li><a href = "https://gamevilusa.com/forums/">Forum</a></li>
+					<li class="dropdown_"><a>Press</a>
+						<ul class="press_container">
+							<li><a href = "news.html">News</a></li>
+							<li><a href = "games.html">Press Kit</a></li>
+						</ul>
+					</li>
+					<div id="id01" class="modal">
+  						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  						<form class="modal-content animate">
+    						<div class="containerbek">
+      							<label><b>Email</b></label>
+      							<input type="text" placeholder="Enter Email" name="email" required>
+
+      							<label><b>Password</b></label>
+      							<input type="password" placeholder="Enter Password" name="psw" required>
+
+      							<label><b>Repeat Password</b></label>
+      							<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      							<input type="checkbox" checked="checked"> Remember me
+      							<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+      							<div class="clearfix">
+        						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        						<button type="submit" class="signupbtn">Sign Up</button>
+      							</div>
+    						</div>
+  						</form>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="c_body">
+		<div class="c_head">
+			<h1>GAMES</h1>
+			<p class="descript">View and download game artworks and more for media.</p>
+		</div>
+		<div class="search">
+			<fieldset>
+				<input class = "intext" type="text" placeholder="Please enter to begin searching.">
+				<img class = "btn_search" src="img/search.png">
+			</fieldset>
+		</div>
+		<ul class = "presslist">
+			<li>
+				<div class = "pic">
+					<a href = "gamelinks/game1.html">
+					<img src="img/kit/hol.jpg">
+					</a>
+				</div>
+				<p class = "pic_name"><a href = "gamelinks/game1.html"><span>Heir Of Light</span></a></p>
+			</li>
+			<li>
+				<div class = "pic">
+					<a href = "gamelinks/game2.html">
+					<img src="img/kit/aa.jpg">
+					</a>
+				</div>
+				<p class = "pic_name"><a href = "gamelinks/game2.html"><span>ArcheAge Begins</span></a></p>
+			</li>
+			<li>
+				<div class = "pic">
+					<a href = "gamelinks/game3.html">
+					<img src="img/kit/mlb.jpg">
+					</a>
+				</div>
+				<p class = "pic_name"><a href = "gamelinks/game3.html"><span>MLB Perfect Inning Live</span></a></p>
+			</li>
+			<li>
+				<div class = "pic">
+					<a href = "gamelinks/game4.html">
+					<img src="img/kit/kritika.jpg">
+					</a>
+				</div>
+				<p class = "pic_name"><a href = "gamelinks/game4.html"><span>Kritika: The White Knights</span></a></p>
+			</li>
+			<li>
+				<div class = "pic">
+					<a href = "gamelinks/game5.html">
+					<img src="img/kit/woc.jpg">
+					</a>
+				</div>
+				<p class = "pic_name"><a href = "gamelinks/game5.html"><span>War Of Crown</span></a></p>
+			</li>
+			<li>
+				<div class = "pic">
+					<a href = "gamelinks/game6.html">
+					<img src="img/kit/devilian.jpg">
+					</a>
+				</div>
+				<p class = "pic_name"><a href = "gamelinks/game6.html"><span>Devilian</span></a></p>
+			</li>
+		</ul>
+		<div class = "paging">
+			<a href = "kit.html">&laquo;</a>
+			<a class = "active" href = "kit.html">1</a>
+			<a href = "kit2.html">2</a>
+			<a href = "kit2.html">&raquo;</a>
+		</div>
+	</div>
+		<hr>
+		<div class="c_footer">
+    		<div class="copyright">
+    			<img id = "gamelogos" src = "img/gamevil_logo.png" alt = "gamelogo">
+        		<p>This site done by Saifulin Ildar student of International University.</p>
+				<p>Project of CS 203: Itro to Web Technologies. Computer Science Department, AIU.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
